@@ -50,7 +50,7 @@ public class Game {
 
 
         String oneWord = "";
-        String[] movieWordsArray = movie.split(" ");    //kaip isimti tarpus is char masyvo?
+        String[] movieWordsArray = movie.split(" ");
         for (int j = 0; j < movieWordsArray.length; j++) {
             oneWord += movieWordsArray[j];
         }
